@@ -1,0 +1,58 @@
+/*estilo geral*/
+
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color:rgb(71, 14, 97);
+    height: 100vh;
+    color:rgb(16, 202, 171)
+    font-siza:large;
+}
+
+ul{
+    display:list-item;
+    margin: 0 10px;
+    font-size: 24xp;
+    text-decoration: none;
+    color: rgb(3, 12, 10);
+}
+
+img {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+}
+
+.categoria video {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    }
+    
+    .categoria video img {
+    opacity: 0.5;
+    height: 100px;
+    }
+    
+    .categoria video img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+
+    }
+
+    .btn-social button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: #00ff08;
+        font-size: 20px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: .2s;
+        }
